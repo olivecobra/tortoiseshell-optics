@@ -1,3 +1,43 @@
-h1 {
-  font-weight: bold;
+/*Universal styling*/
+
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
 }
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*Header*/
+
+.header {
+  display: flex;
+  margin-top: 1rem;
+  background-color: cadetblue;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  height: 3rem;
+}
+
+header img {
+  height: 1.5rem;
+  padding-left: 2rem;
+}
+
+header span {
+  padding-left: 1rem;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*Banner*/
