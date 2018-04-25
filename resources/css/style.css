@@ -6,30 +6,48 @@ html {
   font-family: Helvetica;
 }
 
+body {
+  width: 1256px;
+}
+
 .container {
   width: 960px;
   margin: 0 auto;
 }
 
-/*Header*/
+/*Navigation bar*/
 
-.header {
+.title {
+  background-image: url("../images/glasses.png");
+  height: 31rem;
+  background-repeat: norepeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.navigation {
   display: flex;
-  margin-top: 1rem;
   background-color: cadetblue;
   color: white;
   justify-content: space-between;
-  align-items: center;
   font-size: 1rem;
   height: 3rem;
+  width: 960px;
+  position: relative;
+  top: 1rem;
 }
 
-header img {
+.navigation div {
+  display: flex;
+  align-items: center;
+}
+
+.navigation img {
   height: 1.5rem;
   padding-left: 2rem;
 }
 
-header span {
+.navigation span {
   padding-left: 1rem;
 }
 
@@ -41,3 +59,87 @@ nav li {
 }
 
 /*Banner*/
+
+.banner {
+  display: flex;
+  position: relative;
+  top: 14rem;
+  right: 6rem;
+  justify-content: flex-end;
+}
+
+.banner h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  background-color: white;
+  padding: 1.5rem 5rem;
+}
+
+/*Services section*/
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  margin: 3rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.exam img {
+  width: 3.5rem;
+}
+
+.fitting img {
+  width: 5rem;
+}
+
+/*Infocorner*/
+
+.infocorner {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.information {
+  width: 35%;
+  margin-bottom: 5rem;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  line-height: 1.4;
+}
+
+.information span {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+}
+
+.information p {
+  margin-top: 1rem;
+}
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
